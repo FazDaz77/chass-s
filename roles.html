@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chass'Potage - Galerie des Personnages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            background-image: url('roles/9.png');
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            flex-grow: 1;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery a {
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Chass'Potage - Galerie des Personnages</h1>
+    </header>
+
+    <div class="gallery">
+        <a href="roles/1.png" target="_blank">
+            <img src="roles/1.png" alt="Aubergine Aventureuse">
+        </a>
+        <a href="roles/2.png" target="_blank">
+            <img src="roles/2.png" alt="Brocoli Barré">
+        </a>
+        <a href="roles/3.png" target="_blank">
+            <img src="roles/3.png" alt="Carotte Farfelue">
+        </a>
+        <a href="roles/4.png" target="_blank">
+            <img src="roles/4.png" alt="Chou-Chou Combatif">
+        </a>
+        <a href="roles/5.png" target="_blank">
+            <img src="roles/5.png" alt="Courgette Cachottière">
+        </a>
+        <a href="roles/6.png" target="_blank">
+            <img src="roles/6.png" alt="Piment Pugnace">
+        </a>
+        <a href="roles/7.png" target="_blank">
+            <img src="roles/7.png" alt="Poireau Perfide">
+        </a>
+        <a href="roles/8.png" target="_blank">
+            <img src="roles/8.png" alt="Tomate Tempétueuse">
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chass'Potage - Jeu de société</p>
+    </footer>
+</body>
+
+</html>

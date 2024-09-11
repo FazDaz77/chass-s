@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chass'Potage - Le Jeu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            background-image: url('fond.webp');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #222;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        h2 {
+            color: #28a745;
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #2e8340;
+            color: white;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .rules-section {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .presentation-image {
+            text-align: center;
+        }
+
+        .presentation-image img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .explication-link {
+            display: block;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .explication-link a {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .explication-link a:hover {
+            background-color: #1e7d31;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Chass'Potage - Le Jeu de Société</h1>
+    </header>
+
+    <div class="container">
+       <section class="presentation-image">
+           <a href="personnages.html">
+               <img src="jeu.webp" alt="Chass'Potage Jeu Image">
+           </a>
+       </section>
+
+        <section>
+            <h2>Présentation du Jeu</h2>
+            <p>
+                Bienvenue dans <strong>Chass'Potage</strong>, un jeu où les légumes prennent vie ! Vous incarnez des légumes anthropomorphes qui tentent de survivre aux attaques des autres légumes et du Chef Cuisinier. Le Chef Cuisinier doit, quant à lui, cuisiner tous les légumes sans se faire démasquer.
+            </p>
+        </section>
+        
+        
+        <section>
+            <h2>Détails du jeu</h2>
+            <ul>
+                <li><strong>Nombre de joueurs :</strong> 4 à 8 joueurs</li>
+                <li><strong>Durée du jeu :</strong> 30 à 45 minutes</li>
+                <li><strong>Âge recommandé :</strong> 10 ans et plus</li>
+            </ul>
+        </section>
+
+        <section class="explication-link">
+            <a href="explication.html">Cliquez ici pour plus d'explications sur le jeu</a>
+        </section>
+
+        <section>
+            <h2>But du jeu</h2>
+            <p>
+                Les joueurs incarnent des légumes qui doivent survivre en utilisant leurs pouvoirs spéciaux (offensifs ou défensifs). Le Chef Cuisinier doit éliminer tous les autres légumes avant d’être démasqué.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contenu de la boîte</h2>
+            <ul>
+                <li>8 cartes Légume (4 offensifs et 4 défensifs)</li>
+                <li>1 carte Chef Cuisinier</li>
+                <li>2 cartes "Super Coup de Fourchette"</li>
+                <li>30 jetons Points de Vie (PV)</li>
+                <li>Règle du jeu</li>
+            </ul>
+        </section>
+
+        <section class="rules-section">
+            <h2>Règles du jeu</h2>
+            <h3>Mise en place</h3>
+            <p>
+                1. Mélangez les cartes rôles et distribuez-en une à chaque joueur, face cachée. Un joueur recevra la carte "Chef Cuisinier" en secret.<br>
+                2. Chaque joueur commence la partie avec **3 Points de Vie (PV)**.
+            </p>
+
+            <h3>Déroulement du jeu</h3>
+            <p>Le jeu se déroule en plusieurs tours, où chaque joueur peut effectuer une action pendant son tour :</p>
+            <ul>
+                <li><strong>Utiliser son pouvoir spécial :</strong> Les légumes défensifs se protègent, tandis que les légumes offensifs attaquent.</li>
+                <li><strong>Accuser un joueur d'être le Chef Cuisinier :</strong> Si l’accusation est correcte, le Chef Cuisinier est éliminé et les légumes gagnent.</li>
+            </ul>
+
+            <h3>Phase "Petite Touche du Chef"</h3>
+            <p>
+                Lors de cette phase, les joueurs posent une carte "Petite Touche du Chef" face cachée. Ces cartes sont mélangées puis retournées. Si une carte "Super Coup de Fourchette" apparaît, le joueur ciblé perd 2 PV. Le Chef Cuisinier peut utiliser ce pouvoir deux fois pendant la partie.
+            </p>
+
+            <h3>Transmission des cartes lors de la mort d'un légume</h3>
+            <p>
+                Lorsqu’un légume (y compris le Chef Cuisinier) perd tous ses **PV** et est éliminé, il peut choisir de **donner ses cartes restantes (dont sa carte Chef Cuisinier, le cas échéant)** à un autre joueur de son choix encore en vie. Cela permet de transférer le rôle du Chef Cuisinier et/ou d'autres cartes pour maintenir le suspense.
+            </p>
+
+            <h3>Conditions de victoire</h3>
+            <ul>
+                <li><strong>Les Légumes :</strong> Le dernier légume encore cru ou celui qui démasque le Chef Cuisinier gagne.</li>
+                <li><strong>Le Chef Cuisinier :</strong> Il gagne s'il parvient à éliminer tous les légumes sans être découvert.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Les Rôles des Légumes</h2>
+            <h3>Rôles Défensifs</h3>
+            <ul>
+                <li><strong>Brocoli Barré :</strong> Peut se cacher pendant un tour, évitant toutes les attaques.</li>
+                <li><strong>Poireau Perfide :</strong> Repousse une attaque et renvoie 1 PV de dégât à l'attaquant.</li>
+                <li><strong>Courgette Cachottière :</strong> Devient invisible pendant un tour, échappant à toutes les attaques.</li>
+                <li><strong>Aubergine Aventureuse :</strong> Esquive une attaque et la redirige vers un autre joueur.</li>
+            </ul>
+
+            <h3>Rôles Offensifs</h3>
+            <ul>
+                <li><strong>Carotte Farfelue :</strong> Crée un double d'elle-même pour tromper l'adversaire, puis attaque avec 2 PV de dégât.</li>
+                <li><strong>Tomate Tempétueuse :</strong> Explose en "Coulis Explosif", infligeant 1 PV de dégât à tous les autres joueurs.</li>
+                <li><strong>Piment Pugnace :</strong> Déclenche une explosion épicée qui affecte deux autres joueurs (1 PV de dégât chacun).</li>
+                <li><strong>Chou-Chou Combatif :</strong> Annule une attaque et riposte immédiatement avec 1 PV de dégât.</li>
+            </ul>
+            <section class="explication-link">
+                <a href="roles.html" target="_blank" rel="noopener noreferrer">Voir la galerie des personnages</a>
+
+            </section>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chass'Potage - Jeu de société</p>
+    </footer>
+</body>
+
+</html>
